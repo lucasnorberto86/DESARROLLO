@@ -1,0 +1,44 @@
+/*box model o la caja de CSS*/
+/*4 atributod tiene la caja
+
+pensando la caja desde adentro hacia afuera , estos atributos son::after
+1-  conenido | content
+2- relleno | padding
+3- borde | border
+4-margen| margin
+
+*/
+
+.section-first {
+    background-color: aquamarine;
+
+
+    /* paddig o relleno |padding siemprer lleva una unidad de medida*/
+
+    padding: 80px;
+    /*manipular las cuatro lados de la cajja con todas estas propiedades*/
+
+padding-top: 80px;
+padding-right: 40px;
+padding-bottom: 20px;
+padding-left: 40px;
+
+/* su sintaxis nos pide el tamañano estilo y color del borde*/
+border-top: 4px dotted black;
+border-bottom: 10px dashed red;
+/*margin*/ 
+/*margin: 80px;*/
+margin-top: 80px;
+margin-right: 40px;
+margin-left: 20px;
+margin-bottom: 10px
+
+
+
+
+
+
+
+
+
+}
